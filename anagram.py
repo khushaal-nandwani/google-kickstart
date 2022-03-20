@@ -15,7 +15,7 @@ for j in range(testcases):
         continue
 
     word = list(given)
-    # alphabets = list(word)
+    # alphabets = given_list(word)
     numbers = [x for x in range(length)]
     orgnl_word = given
 

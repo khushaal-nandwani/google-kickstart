@@ -19,7 +19,7 @@ def list_read(l1: str) -> list:
 
 
 def mod_list(m: int, l: list) -> list:
-    """ Changes the list elements by modifying them with the modulus of m
+    """ Changes the given_list elements by modifying them with the modulus of m
     required"""
     l_copy = l[:]
     for i in range(len(l)):
